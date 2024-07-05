@@ -122,37 +122,4 @@ body {
     font-size: 1.2rem;
 }
 
-/* Projects Section */
-#projects {
-    background-color: #fff3e0; /* Light orange background */
-    padding: 40px 0;
-}
 
-.project {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
-
-.project:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-.project h3 {
-    margin-top: 0;
-}
-
-.project img {
-    max-width: 50%;
-    height: auto;
-    border-radius: 8px;
-}
-
-/* Footer Section */
-#footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}

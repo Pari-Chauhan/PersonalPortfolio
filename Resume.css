@@ -1,0 +1,110 @@
+/* styleResume.css */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#header {
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#header nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+#header nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+#resume {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.resume-section {
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #ddd; 
+    padding-bottom: 20px; /* Add padding to separate the content from the border */
+    margin-bottom: 20px;
+}
+
+.resume-heading h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.resume-heading {
+    flex-basis: 20%;
+}
+
+.resume-description {
+    flex-basis: 80%;
+    padding-left: 500px; /* Adjust this value as needed to move the description to the right */
+}
+
+.resume-description ul {
+    padding-left: 20px;
+}
+
+.resume-item h3 {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+}
+
+.resume-item p {
+    margin: 0 0 10px 0;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.resume-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
