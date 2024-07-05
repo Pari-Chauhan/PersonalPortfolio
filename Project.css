@@ -67,6 +67,8 @@ body {
 .project-content p {
     margin: 0 0 10px 0;
     line-height: 1.5;
+    font-size: 18px;
+    max-width: 500px;
 }
 
 .project-content a {
@@ -77,8 +79,9 @@ body {
 
 .project img {
     flex-basis: 30%;
-    max-width: 100%;
+    max-width: 30%;
     border-radius: 5px;
+   float: right;
 }
 
 footer {
