@@ -1,88 +1,78 @@
 /* Global Styles */
 body {
     font-family: 'Times New Roman', Times, serif;
-    line-height: 1.6;
+    background-color: #f0f0f0;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Background color for the body */
-    font-size: 18px; /* Increased font size for the home page content */
-}
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
     padding: 20px;
 }
 
-/* Header Section */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    position: relative;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    display: inline-block;
-}
-
-header nav {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    transform: translateY(-50%);
-}
-
-header nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 15px;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-}
-
-/* About Section */
 #about {
-    background-color: #e0f7fa; /* Light cyan background */
-    padding: 40px 0;
-    text-align: center; /* Center align content */
+    background-color: #faf7f7;
+    padding: 40px 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
 }
 
-.about-content {
+#about .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
-.about-content img {
+#about img {
     max-width: 150px;
     border-radius: 50%;
-    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.home-nav {
-    margin-top: 20px;
+#about p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+    max-width: 500px;
+}
+.nav-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-box {
-    display: inline-block;
-    background-color: #ffa07a; /* Light orange background */
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 25px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    border-radius: 50%; /* Makes the box circular */
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.nav-box a {
     text-decoration: none;
-    margin: 10px;
+    color: #ffffff; /* White text for better contrast */
+    font-size: 18px;
 }
 
+/* Aesthetic colors for each box */
+.nav-box.box1 {
+    background-color: #ff6f61; /* Coral */
+}
+
+.nav-box.box2 {
+    background-color: #6b5b95; /* Purple */
+}
 .nav-box:hover {
-    background-color: #ff4500; /* Darker orange on hover */
+    opacity: 0.8; /* Slightly dim on hover */
 }
-
 /* Resume Section */
+  
 #resume {
     background-color: #e8f5e9; /* Light green background */
     padding: 40px 0;

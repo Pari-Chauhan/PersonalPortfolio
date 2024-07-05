@@ -4,32 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume - Your Name</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleResume.css">
 </head>
 <body>
 
-      <!-- Header Section -->
-      <header id="header">
+    <!-- Header Section -->
+    <header id="header">
         <div class="container">
-            <h1>Projects</h1>
-            <nav>
-                <a href="home.html">Home</a>
-                <a href="resume.html">Resume</a>
-                <a href="projects.html">Projects</a>
-            </nav>
+            <h1>Resume</h1>
         </div>
     </header>
+    
+    <!-- Navigation Section -->
+    <div class="nav-container">
+        <div class="nav-box">
+            <a href="home.html">Home</a>
+        </div>
+        <span>|</span>
+        <div class="nav-box">
+            <a href="resume.html">Resume</a>
+        </div>
+        <span>|</span>
+        <div class="nav-box">
+            <a href="projects.html">Projects</a>
+        </div>
+    </div>
 
-
-    <!-- Resume Section -->
+    <!-- Main Content Section -->
     <section id="resume">
-        <div class="container">
-            <p><a href="your-resume.pdf" target="_blank" class="resume-link">Download Resume</a></p>
-
-            <div class="resume-content">
-                <!-- Education Section -->
-                <div class="resume-section">
+        <div class="container resume-content">
+            <!-- Education Section -->
+            <div class="resume-section">
+                <div class="resume-heading">
                     <h2>Education</h2>
+                </div>
+                <div class="resume-description">
                     <div class="resume-item">
                         <h3>Degree 1</h3>
                         <p>Institution Name, Location</p>
@@ -51,10 +60,14 @@
                         </ul>
                     </div>
                 </div>
+            </div>
 
-                <!-- Work Experience Section -->
-                <div class="resume-section">
+            <!-- Work Experience Section -->
+            <div class="resume-section">
+                <div class="resume-heading">
                     <h2>Work Experience</h2>
+                </div>
+                <div class="resume-description">
                     <div class="resume-item">
                         <h3>Job Title 1</h3>
                         <p>Company Name, Location</p>
@@ -76,10 +89,14 @@
                         </ul>
                     </div>
                 </div>
+            </div>
 
-                <!-- Skills Section -->
-                <div class="resume-section">
+            <!-- Skills Section -->
+            <div class="resume-section">
+                <div class="resume-heading">
                     <h2>Skills</h2>
+                </div>
+                <div class="resume-description">
                     <ul class="skills-list">
                         <li>Languages: Java, Python, SQL, R, HTML</li>
                         <li>Libraries & Platforms: Numpy, Pandas, Matplotlib, Github, MySQL, GoogleColab</li>
@@ -89,6 +106,9 @@
                     </ul>
                 </div>
             </div>
+
+            <!-- Download Resume Link -->
+            <p><a href="your-resume.pdf" target="_blank" class="resume-link">Download Resume</a></p>
         </div>
     </section>
 
