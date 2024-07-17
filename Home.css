@@ -1,7 +1,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color:  rgb(244, 240, 233);
+    background-color:  rgb(165, 165, 164);
     margin: 0;
 }
 
@@ -13,7 +13,7 @@ body {
 
 #header {
     position: relative;
-    background-color: white;
+    background-color:  white;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
 }
@@ -35,7 +35,7 @@ body {
 #aboutt {
     display: flex;
     align-items: center;
-    background-color:  rgb(244, 240, 233);
+    background-color:  rgb(197, 197, 197);
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
@@ -75,7 +75,7 @@ body {
 .about img {
     flex-basis: 30%;
     max-width: 30%;
-    border-radius: 50%;
+    border-radius: 60%;
 }
 
 

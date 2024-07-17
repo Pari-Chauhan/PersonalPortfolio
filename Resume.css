@@ -42,7 +42,7 @@ body {
 }
 
 #resume {
-    background-color: rgb(244, 240, 233);
+    background-color: rgb(197, 197, 197);
     padding: 20px;
     border-radius: 5px;
 }
@@ -107,6 +107,6 @@ footer {
 
 .resume-link {
     text-decoration: none;
-    color: #007bff;
+    color: #427ebf;
     font-weight: bold;
 }

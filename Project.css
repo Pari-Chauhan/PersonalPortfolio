@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    background-color: #f0f0f0;
+    background-color: white;
     margin: 0;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 
 #projects {
-    background-color: rgb(244, 240, 233);
+    background-color:  rgb(202, 201, 201);
     padding: 20px;
     border-radius: 5px;
 }
@@ -73,7 +73,7 @@ body {
 
 .project-content a {
     text-decoration: none;
-    color: #007bff;
+    color: #0b0b0c;
     font-weight: bold;
 }
 
