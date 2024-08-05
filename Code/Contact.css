@@ -1,0 +1,148 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom right, #5b3a7a, #4a61c3); /* Dark blue-purple gradient */
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#header {
+    position: relative;
+    background: linear-gradient(to bottom right, #d0a0e0, #c2b3d8); /* Light bluish-purple gradient */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    color: #333; /* Dark color for heading text */
+    padding-left: 20px; /* Add padding for alignment */
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: left;
+    margin-left: 20px; /* Adjust margin for more left alignment */
+}
+
+#header nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+#header nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+#header nav a:hover {
+    color: #4CAF50; /* Change color on hover */
+}
+
+#contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: linear-gradient(to bottom right, #5b3a7a, #4a61c3); /* Darker purple-blue gradient */
+    padding: 20px;
+    border-radius: 5px;
+    color: white; /* White font color */
+    animation: slideInFromTop 1.5s ease-out;
+}
+
+.contact-form {
+    flex-basis: 45%; /* Adjusted width for more space */
+    margin-right: 5%; /* Space between form and details */
+}
+
+.contact-form h2, .contact-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.contact-details {
+    flex-basis: 45%; /* Adjusted width for more space */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to bottom right, #b3a0c9, #c2b3d8);
+    border-top: 1px solid #ddd;
+    animation: fadeIn 2s ease-out;
+}
+
+#social-media {
+    margin-bottom: 30px; /* Increased space between social media links and copyright text */
+}
+
+#social-media a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px; /* Increased margin between icons */
+    display: inline-block;
+}
+
+#social-media img {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+    vertical-align: middle;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+#social-media a:hover img {
+    opacity: 0.8; /* Slight fade on hover */
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+footer p {
+    margin: 0;
+    color: #333; /* Dark color for footer text */
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+/* Keyframes for animations */
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

@@ -1,0 +1,144 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to bottom right, #b3a0c9, #c2b3d8); /* Light purple-blue gradient */
+    margin: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#header {
+    position: relative;
+    background: linear-gradient(to bottom right, #d0a0e0, #c2b3d8); /* Light bluish-purple gradient */
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+#header h1 {
+    margin: 0;
+    font-size: 36px;
+    text-align: left;
+    padding-left: 20px;
+    color: #333; /* Dark color for heading text */
+}
+
+#header nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    text-align: right;
+}
+
+#header nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+#header nav a:hover {
+    color: #4CAF50; /* Change color on hover */
+}
+
+#projects {
+    background: linear-gradient(to bottom right, #5b3a7a, #4a61c3); /* Darker purple-blue gradient */
+    padding: 20px;
+    border-radius: 5px;
+    color: white; /* White font color */
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(-50px); /* Start position above */
+    animation: slideIn 1s forwards; /* Apply animation */
+}
+
+.project-content {
+    flex-basis: 70%;
+    padding-right: 20px;
+}
+
+.project-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+    color: white; /* White font color */
+}
+
+.project-content p {
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+    font-size: 18px;
+    max-width: 500px;
+    color: white; /* White font color */
+}
+
+.project-content a {
+    text-decoration: none;
+    color: #a8d0f1; /* Light blue color for links */
+    font-weight: bold;
+}
+
+.project img {
+    flex-basis: 30%;
+    max-width: 30%;
+    border-radius: 5px;
+    float: right;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(to bottom right, #b3a0c9, #c2b3d8);
+    border-top: 1px solid #ddd;
+    animation: fadeIn 2s ease-out;
+}
+
+#social-media {
+    margin-bottom: 30px; /* Increased space between social media links and copyright text */
+}
+
+#social-media a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px; /* Increased margin between icons */
+    display: inline-block;
+}
+
+#social-media img {
+    width: 24px; /* Adjust size as needed */
+    height: 24px;
+    vertical-align: middle;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+#social-media a:hover img {
+    opacity: 0.8; /* Slight fade on hover */
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+footer p {
+    margin: 0;
+    color: #333; /* Dark color for footer text */
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+
+/* Animation Keyframes */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
