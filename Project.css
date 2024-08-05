@@ -1,7 +1,8 @@
 body {
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(to bottom right, #b3a0c9, #c2b3d8); /* Light purple-blue gradient */
+    background: linear-gradient(to bottom right, #333333, #4f4f4f); /* Light black gradient */
     margin: 0;
+    color: white; /* Default text color for body */
 }
 
 .container {
@@ -12,7 +13,7 @@ body {
 
 #header {
     position: relative;
-    background: linear-gradient(to bottom right, #d0a0e0, #c2b3d8); /* Light bluish-purple gradient */
+    background: linear-gradient(to bottom right, #1a1a1a, #000000); /* Darker black gradient */
     border-bottom: 1px solid #ddd;
     padding-bottom: 20px;
 }
@@ -22,7 +23,7 @@ body {
     font-size: 36px;
     text-align: left;
     padding-left: 20px;
-    color: #333; /* Dark color for heading text */
+    color: white; /* White color for heading text */
 }
 
 #header nav {
@@ -34,7 +35,7 @@ body {
 
 #header nav a {
     text-decoration: none;
-    color: #333;
+    color: white; /* White color for navigation links */
     margin: 0 10px;
     font-size: 16px;
     transition: color 0.3s;
@@ -45,7 +46,7 @@ body {
 }
 
 #projects {
-    background: linear-gradient(to bottom right, #5b3a7a, #4a61c3); /* Darker purple-blue gradient */
+    background: linear-gradient(to bottom right, #1a1a1a, #000000); /* Darker black gradient */
     padding: 20px;
     border-radius: 5px;
     color: white; /* White font color */
@@ -93,10 +94,11 @@ body {
     border-radius: 5px;
     float: right;
 }
+
 footer {
     text-align: center;
     padding: 20px 0;
-    background: linear-gradient(to bottom right, #b3a0c9, #c2b3d8);
+    background: linear-gradient(to bottom right, #333333, #4f4f4f); /* Light black gradient */
     border-top: 1px solid #ddd;
     animation: fadeIn 2s ease-out;
 }
@@ -107,7 +109,7 @@ footer {
 
 #social-media a {
     text-decoration: none;
-    color: white;
+    color: white; /* White color for social media links */
     margin: 0 15px; /* Increased margin between icons */
     display: inline-block;
 }
@@ -126,10 +128,9 @@ footer {
 
 footer p {
     margin: 0;
-    color: #333; /* Dark color for footer text */
+    color: white; /* White color for footer text */
     font-size: 14px; /* Adjust font size as needed */
 }
-
 
 /* Animation Keyframes */
 @keyframes slideIn {
